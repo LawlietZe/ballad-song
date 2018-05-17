@@ -22,6 +22,17 @@ ECMAScript 规范中标识符采用驼峰大小写格式，驼峰命名法由小
 
 **命名建议**：尽量在变量名字中体现所属类型，如:length、count等表示数字类型；而包含name、title表示为字符串类型。
 
+**eg**
+
+```js
+// 好的命名方式
+let maxCount = 10;
+let tableTitle = 'LoginTable';
+// 不好的命名方式
+let setCount = 10;
+let getTitle = 'LoginTable';
+```
+
 ## 注释
 
 ## 开发
