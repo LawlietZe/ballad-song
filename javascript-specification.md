@@ -32,6 +32,29 @@ let tableTitle = 'LoginTable';
 let setCount = 10;
 let getTitle = 'LoginTable';
 ```
+### 1.2 常量
+
+- **命名方法**: 名称全部大写。
+
+- **命名规范**：使用大写字母和下划线来组合命名，下划线用以分割单词。
+
+- **eg**
+
+```js
+const MAX_COUNT = 10;
+const URL = 'http://www.foreverz.com';
+```
+
+### 1.3 函数
+
+- **命名方法**：小驼峰式命名法。
+
+- **命名规范**：前缀应当为动词。
+
+- **命名建议**：可使用常见动词约定
+
+- **eg**
+
 
 ## 2. 注释
 
