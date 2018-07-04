@@ -1,17 +1,4 @@
 /**
- * 全局上下文-在浏览器中, 
- * window 对象同时也是全局对象：
- */
-console.log(this === window); // true
-
-a = 37;
-console.log(window.a); // 37
-
-this.b = "MDN";
-console.log(window.b)  // "MDN"
-console.log(b)         // "MDN"
-
-/**
  * 函数上下文- 在函数内部，
  * this的值取决于函数被调用的方式。
  */
@@ -19,10 +6,7 @@ function f1(){
     return this;
 }
 //在浏览器中：
-f1() === window; //在浏览器中，全局对象是window
-  
-//在Node中：
-f1() === global;
+f1() === window; // => true 在浏览器中，全局对象是window
 
 /**
  * Function 构造函数创建一个对象，
@@ -31,20 +15,59 @@ f1() === global;
 var sum = new Function('a', 'b', 'return a + b');
 
 /**
- * Function.bind 
+ * Function.bind 绑定指定对象的 this 到 调用者身上
  */
-var module = {
+var FundComponent = function(name) {
+    this.name = name;
+}
+FundComponent.prototype = {
+    constructor: FundComponent,
+    sayHello: function(name) {
+        return name;
+    }
+}
+
+var module1 = {
     name: 'm1',
     setName: function(name) {
         this.name = name;
     },
     getName: function() {
-        return this.name;
-    }
+        return this;
+    },
+    __proto__: FundComponent.prototype
 }
 
-var getName2 = module.getName;
-console.log('this 指向 module 本身：', window.module.getName());
-console.log('this 指向全局作用于:', window.getName2());
-console.log('this 指向绑定到 module本身 :', (window.getName2.bind(module))());
+var module2 = {
+    name: 'm2',
+}
+
+
+var getName = module1.getName;
+var newGetName = getName.bind(module2); // 将 module2 的 this 绑定到
+console.log('this 指向 module 本身:', window.module1.getName()); // => m1
+console.log('this 指向全局作用于:', window.getName()); // 全局的 window.getName 并没有 name 属性
+console.log('this 指向绑定到 module 本身:', newGetName()); 
+
+/**
+ *  Function.call && Function.apply 绑定指定对象的 this 到 调用者身上 并可携带函数
+ */
+var obj = { name: 'dengdeng' };
+var name = 'lishilei'; // window.name = 'lishilei'
+
+var sayYeah = (a, b) => {
+    console.log(this.name + a + b);
+}
+
+sayYeah(3, 4) // 不绑定上下文
+
+var bindThis = sayYeah.bind(obj); // 先绑定
+bindThis(1, 2); // 再执行
+
+sayYeah.call(obj, 1, 2); // 绑定并且执行
+
+sayYeah.apply(obj, [1, 2]); // 绑定并且执行
+
+
+
 
