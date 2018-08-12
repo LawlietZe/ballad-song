@@ -76,7 +76,7 @@
 
 ### 5. 上海联和金融官网站点
 
-参与公司的官网设计与开发，搭建一款响应式的现代网站，塑造企业形象。 
+参与公司的官网设计与开发，搭建一款响应式的现代网站，塑造企业形像
 
 **前端技术栈**：
 
@@ -92,32 +92,25 @@
 
 ## 开源事业
 
-## 开源项目
+- [Fund UI](http://github.com/yourname/projectname)
 
-- [STU](http://github.com/yourname/projectname)：项目的简要说明，Star和Fork数多的可以注明
+- [Solar Value](http://github.com/yourname/projectname)
 
-- [WXYZ](http://github.com/yourname/projectname)：项目的简要说明，Star和Fork数多的可以注明
+- [Hey Design](http://github.com/yourname/projectname)
 
 ## 技术文章
 
-- [一个产品经理眼中的云计算：前生今世和未来](http://get.jobdeer.com/706.get)
-- [来自HeroKu的HTTP API 设计指南(翻译文章)](http://get.jobdeer.com/343.get) （ ```好的翻译文章可以侧证你对英文技术文档的阅读能力```）
+- [我们为什么要前后端分离](https://turkyden.github.io/2018/02/24/%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%EF%BC%9F/)
 
-## 演讲和讲义
-（放置你代表公司在一些技术会议上做过的演讲，以及你在公司分享时制作的讲义）
+- [UI 组件设计法则(掘金翻译文章)](http://get.jobdeer.com/343.get)
 
-  - 2014架构师大会演讲：[如何通过Docker优化内部开发](http://jobdeer.com)
- - 9月公司内部分享：[云计算的前生今世](http://jobdeer.com)
+## 演讲讲义
 
----
+- 2018 年终报告演讲：[CMR 系统前端工程实践与创新](http://jobdeer.com)
 
- # 教育背景
+- 2017 年内部晋升演讲：[前端攻城狮不迷茫](http://jobdeer.com)
 
-
----
-
-# 技能清单
-（我一般主张将技能清单写入到工作经历里边去。不过很难完整，所以有这么一段也不错）
+## 技能清单
 
 以下均为我熟练使用的技能
 
@@ -130,10 +123,6 @@
 - 单元测试：PHPUnit/SimpleTest/Qunit
 - 云和开放平台：SAE/BAE/AWS/微博开放平台/微信应用开发
 
----
+## 致谢
 
-
-# 致谢
 感谢您花时间阅读我的简历，期待能有机会和您共事。
-
-
