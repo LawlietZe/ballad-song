@@ -39,6 +39,6 @@
 
 > 江湖之大，如若有缘，还期望有朝一日与诸君共事！
 
-恳请领导批准！
+<p align="right">恳请领导批准！</p>
 
-Dengdeng Ju in 2018/08/15
+<p align="right">Dengdeng Ju in 2018/08/15</p>
