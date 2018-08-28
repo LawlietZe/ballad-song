@@ -4,8 +4,6 @@
 
 ![骨架占位图](../img/skeleton-screen.png)
 
-![骨架屏与菊花图对比](../img/skeleton-demo.gif)
-
 ## 从历史中走来
 
 在遥远的上古时代，`Web` 还停留在刀耕火种的时期，人们对它的印象停留在 `页面` 阶段，前端开发自然是页面仔的工作内容。
@@ -20,3 +18,4 @@
 
 目前国内有简书、领英、新浪微博头条文章页采用这个加载方案。国外有Facebook iOS版、Medium、WordPress App、Slack 等产品采用。相信以后会有更多的 App 和网页会使用 Skeleton Screen。
 
+![骨架屏与菊花图对比](../img/skeleton-demo.gif)
