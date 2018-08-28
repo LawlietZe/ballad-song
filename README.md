@@ -6,6 +6,8 @@
 
 ## 工程实践系列
 
+- [我在 SAFS 这两年](/doc/this_two_years_in_safs.md)
+
 - [Javascript 模块化前世今生](./doc/javascript_module.md)
 
 - [Javascript 编码规范](./doc/javascript_specification.md)
