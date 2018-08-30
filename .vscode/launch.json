@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/src/10_generators.js"
+            "program": "${workspaceFolder}/src/11_async_await.js"
         },
         {
             "type": "chrome",
