@@ -4,6 +4,8 @@
 
 - [深入学习 React 全家桶](./doc/learm_from_react.md)
 
+- [技术人如何运营自己的微信公众号](./doc/how_to_build_my_weixinmp.md)
+
 ## 工程实践系列
 
 - [我在 SAFS 这两年](/doc/this_two_years_in_safs.md)
